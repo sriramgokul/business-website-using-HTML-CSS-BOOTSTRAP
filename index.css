@@ -1,0 +1,76 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background: #f1fbff;
+}
+
+.nav-item a{
+    color: white;
+}
+
+.carousel-item{
+    height: 80vh;   
+}
+
+.carousel-caption{
+    top: 200px;
+    
+}
+.carousel-caption h4{
+    font-size: 40px;
+    letter-spacing: 4px;   
+}
+
+.carousel-caption p {
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.section-padding{
+    padding: 10vh ;
+}
+
+.navbar-nav a{
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+}
+.navbar-nav a:hover{
+    color: yellow;
+}
+
+
+/*-------------Responsive CSS--------------*/
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .carousel-caption{
+        bottom: 370px;
+    }
+    .carousel-caption p{
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width:767px){
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 125px;
+    }
+    .carousel-caption h5{
+        padding:  10px 15px;
+        font-size: 15px;
+    }
+    .carousel-caption a {
+        padding:  10px 15px;
+    }
+    .carousel-caption p{
+        width: 100%;
+        line-height: 1.6;
+        font-size: 12px;
+    }
+}
